@@ -1,0 +1,53 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+/* display flex korle nav er vitor 2 ta jinis 1 line e chole ase */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 51px;
+    
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 35px 19px 36px;
+}
