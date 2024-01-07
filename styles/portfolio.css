@@ -208,6 +208,7 @@ font-size: 25px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 10px;
 }
 .resume-second-title{
     color: var(--Dark-03, #757575);
@@ -215,6 +216,8 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin-bottom: 20px;
+margin-top: 0px;
 }
 .resume-description{
     color: var(--Dark-03, #757575);
@@ -222,8 +225,15 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 175% */
+  
+margin-top: 0px;
 }
 .resume-container{
     display: flex;
-    justify-content: space-around;
+    gap:71px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
