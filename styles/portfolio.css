@@ -237,3 +237,20 @@ margin-top: 0px;
     text-align: center;
     margin-top: 50px;
 }
+/* Footer Section Style */
+footer{
+    display: flex;
+    gap: 452px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 113px;
+    
+}
+.footer-description{
+    color: var(--Dark-02, #474747);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 562px;
+}
