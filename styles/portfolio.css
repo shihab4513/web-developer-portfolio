@@ -121,27 +121,27 @@ nav a {
 
 /* Main section styles */
 main{
-    max-width: 1140px;
+    width:1140px;
     /* margin top-bottom=0 and left-right=auto, eventually it will take it in middle */
     margin: 0 auto;
 }
 
- /* .info-title{
+ .info-title{
     color: var(--Dark-03, #757575);
    
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; 
-} */
- /* .info-description{
+}
+ .info-description{
     color: var(--Dark-02, #474747);
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
   
-}  */
+} 
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -153,9 +153,13 @@ main{
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px;
-    margin: 130px;
+    margin-top: 130px;
+    /* width: 1140px; */
    
 }
 .about-info{
     text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 156px;
 }
