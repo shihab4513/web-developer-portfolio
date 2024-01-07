@@ -3,6 +3,27 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+  
+}
+
 /* nav related styles */
 /* display flex korle nav er vitor 2 ta jinis 1 line e chole ase */
 nav {
@@ -59,18 +80,22 @@ nav a {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-.banner.profile-pic{
-     width: 584px;height: 676px;
-     margin-bottom: 0px;
+
+.banner.profile-pic {
+    width: 584px;
+    height: 676px;
+    margin-bottom: 0px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     font-style: normal;
     font-weight: 600;
@@ -78,17 +103,59 @@ nav a {
     color: var(--Dark-02, #474747);
     margin-bottom: 0px;
 }
-.banner-title{
+
+.banner-title {
     color: var(--Dark-01, #181818);
     font-size: 85px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
-    
+      
 }
 
+/* Main section styles */
+main{
+    max-width: 1140px;
+    /* margin top-bottom=0 and left-right=auto, eventually it will take it in middle */
+    margin: 0 auto;
+}
+
+ /* .info-title{
+    color: var(--Dark-03, #757575);
+   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+} */
+ /* .info-description{
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  
+}  */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* About Section styles */
+.about {
+   
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px;
+   
+}
+.about-info{
+    text-align: center;
+}
